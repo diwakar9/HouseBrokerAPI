@@ -1,0 +1,1038 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "House Broker API",
+    "description": "A comprehensive API for house broker application with user authentication and property management",
+    "contact": {
+      "name": "House Broker API Support",
+      "email": "support@housebroker.com"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Auth/register": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterUserDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterUserDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterUserDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/AuthResponseDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AuthResponseDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AuthResponseDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/AuthResponseDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AuthResponseDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AuthResponseDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Auth/me": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Properties": {
+      "get": {
+        "tags": [
+          "Properties"
+        ],
+        "parameters": [
+          {
+            "name": "pageNumber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PropertyListDtoPagedResultDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PropertyListDtoPagedResultDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PropertyListDtoPagedResultDto"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Properties"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreatePropertyDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreatePropertyDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreatePropertyDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PropertyDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PropertyDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PropertyDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Properties/{id}": {
+      "get": {
+        "tags": [
+          "Properties"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PropertyDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PropertyDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PropertyDto"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Properties"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePropertyDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePropertyDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePropertyDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PropertyDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PropertyDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PropertyDto"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Properties"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Properties/search": {
+      "post": {
+        "tags": [
+          "Properties"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PropertySearchDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PropertySearchDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PropertySearchDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PropertyListDtoPagedResultDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PropertyListDtoPagedResultDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PropertyListDtoPagedResultDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Properties/broker/{brokerId}": {
+      "get": {
+        "tags": [
+          "Properties"
+        ],
+        "parameters": [
+          {
+            "name": "brokerId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "pageNumber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PropertyListDtoPagedResultDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PropertyListDtoPagedResultDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PropertyListDtoPagedResultDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AuthResponseDto": {
+        "type": "object",
+        "properties": {
+          "token": {
+            "type": "string",
+            "nullable": true
+          },
+          "user": {
+            "$ref": "#/components/schemas/UserDto"
+          },
+          "expiresAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreatePropertyDto": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "propertyType": {
+            "$ref": "#/components/schemas/PropertyType"
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "state": {
+            "type": "string",
+            "nullable": true
+          },
+          "zipCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
+          },
+          "latitude": {
+            "type": "number",
+            "format": "double"
+          },
+          "longitude": {
+            "type": "number",
+            "format": "double"
+          },
+          "bedrooms": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bathrooms": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "squareFeet": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "yearBuilt": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "imageUrls": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "features": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PropertyFeatureDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginDto": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PropertyDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "propertyType": {
+            "type": "string",
+            "nullable": true
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "state": {
+            "type": "string",
+            "nullable": true
+          },
+          "zipCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
+          },
+          "latitude": {
+            "type": "number",
+            "format": "double"
+          },
+          "longitude": {
+            "type": "number",
+            "format": "double"
+          },
+          "bedrooms": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bathrooms": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "squareFeet": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "yearBuilt": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "isAvailable": {
+            "type": "boolean"
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "broker": {
+            "$ref": "#/components/schemas/UserDto"
+          },
+          "images": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PropertyImageDto"
+            },
+            "nullable": true
+          },
+          "features": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PropertyFeatureDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PropertyFeatureDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PropertyImageDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "imageUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "isPrimary": {
+            "type": "boolean"
+          },
+          "displayOrder": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PropertyListDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "propertyType": {
+            "type": "string",
+            "nullable": true
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "state": {
+            "type": "string",
+            "nullable": true
+          },
+          "bedrooms": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bathrooms": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "squareFeet": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "isAvailable": {
+            "type": "boolean"
+          },
+          "primaryImageUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "broker": {
+            "$ref": "#/components/schemas/UserDto"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PropertyListDtoPagedResultDto": {
+        "type": "object",
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PropertyListDto"
+            },
+            "nullable": true
+          },
+          "totalCount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pageNumber": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalPages": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PropertySearchDto": {
+        "type": "object",
+        "properties": {
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "state": {
+            "type": "string",
+            "nullable": true
+          },
+          "minPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "maxPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "propertyType": {
+            "type": "string",
+            "nullable": true
+          },
+          "minBedrooms": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maxBedrooms": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "minBathrooms": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maxBathrooms": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "minSquareFeet": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maxSquareFeet": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "isAvailable": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "pageNumber": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pageSize": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PropertyType": {
+        "enum": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "RegisterUserDto": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "role": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdatePropertyDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "propertyType": {
+            "$ref": "#/components/schemas/PropertyType"
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "state": {
+            "type": "string",
+            "nullable": true
+          },
+          "zipCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
+          },
+          "latitude": {
+            "type": "number",
+            "format": "double"
+          },
+          "longitude": {
+            "type": "number",
+            "format": "double"
+          },
+          "bedrooms": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bathrooms": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "squareFeet": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "yearBuilt": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "isAvailable": {
+            "type": "boolean"
+          },
+          "imageUrls": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "features": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PropertyFeatureDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "fullName": {
+            "type": "string",
+            "nullable": true
+          },
+          "role": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "isActive": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. Enter 'Bearer' [space] and then your token in the text input below.",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

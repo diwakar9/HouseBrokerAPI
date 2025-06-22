@@ -1,0 +1,112 @@
+{
+  "version": 2,
+  "dgSpecHash": "5S+3zYBTz3s=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\HouseBroker.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\entityframework\\6.1.0\\entityframework.6.1.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.4\\microsoft.aspnet.identity.core.2.2.4.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnet.identity.entityframework\\2.2.4\\microsoft.aspnet.identity.entityframework.2.2.4.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.0\\microsoft.aspnetcore.cryptography.internal.8.0.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.0\\microsoft.aspnetcore.cryptography.keyderivation.8.0.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.dataprotection\\2.2.0\\microsoft.aspnetcore.dataprotection.2.2.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.dataprotection.abstractions\\2.2.0\\microsoft.aspnetcore.dataprotection.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.0\\microsoft.aspnetcore.http.2.2.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.identity\\2.2.0\\microsoft.aspnetcore.identity.2.2.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.2.0\\microsoft.extensions.configuration.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.2.0\\microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\2.2.0\\microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.identity.core\\8.0.0\\microsoft.extensions.identity.core.8.0.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.identity.stores\\8.0.0\\microsoft.extensions.identity.stores.8.0.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.objectpool\\2.2.0\\microsoft.extensions.objectpool.2.2.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.webencoders\\2.2.0\\microsoft.extensions.webencoders.2.2.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.3\\microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.0.3\\microsoft.identitymodel.jsonwebtokens.7.0.3.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.3\\microsoft.identitymodel.logging.7.0.3.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.3\\system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.security.cryptography.pkcs\\4.5.0\\system.security.cryptography.pkcs.4.5.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.security.cryptography.xml\\4.5.0\\system.security.cryptography.xml.4.5.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 7.0.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "projectPath": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\HouseBroker.Application.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\HouseBroker.Application.csproj",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'EntityFramework 6.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\HouseBroker.Application.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\HouseBroker.Application.csproj",
+      "libraryId": "EntityFramework",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\HouseBroker.Application.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\HouseBroker.Application.csproj",
+      "libraryId": "Microsoft.AspNet.Identity.Core",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.AspNet.Identity.EntityFramework 2.2.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\HouseBroker.Application.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\HouseBroker.Application.csproj",
+      "libraryId": "Microsoft.AspNet.Identity.EntityFramework",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

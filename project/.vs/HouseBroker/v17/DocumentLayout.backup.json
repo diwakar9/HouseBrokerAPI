@@ -1,0 +1,428 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E5F6A7-B8C9-4D8E-BFAF-CFBFAD9E8F7A}|src\\HouseBroker.Infrastructure\\HouseBroker.Infrastructure.csproj|c:\\users\\dell\\downloads\\project-bolt-sb1-8r9nwtrl (2)ff\\project-bolt-sb1-8r9nwtrl\\project\\src\\housebroker.infrastructure\\data\\housebrokerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E5F6A7-B8C9-4D8E-BFAF-CFBFAD9E8F7A}|src\\HouseBroker.Infrastructure\\HouseBroker.Infrastructure.csproj|solutionrelative:src\\housebroker.infrastructure\\data\\housebrokerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-4B6C-9D8E-AF9E8B7C6D5E}|src\\HouseBroker.Domain\\HouseBroker.Domain.csproj|c:\\users\\dell\\downloads\\project-bolt-sb1-8r9nwtrl (2)ff\\project-bolt-sb1-8r9nwtrl\\project\\src\\housebroker.domain\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-4B6C-9D8E-AF9E8B7C6D5E}|src\\HouseBroker.Domain\\HouseBroker.Domain.csproj|solutionrelative:src\\housebroker.domain\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-4B6C-9D8E-AF9E8B7C6D5E}|src\\HouseBroker.Domain\\HouseBroker.Domain.csproj|c:\\users\\dell\\downloads\\project-bolt-sb1-8r9nwtrl (2)ff\\project-bolt-sb1-8r9nwtrl\\project\\src\\housebroker.domain\\interfaces\\ipropertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-4B6C-9D8E-AF9E8B7C6D5E}|src\\HouseBroker.Domain\\HouseBroker.Domain.csproj|solutionrelative:src\\housebroker.domain\\interfaces\\ipropertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D4E5F6-A7B8-4C7D-AE9F-BFAE9C8D7E6F}|src\\HouseBroker.Application\\HouseBroker.Application.csproj|c:\\users\\dell\\downloads\\project-bolt-sb1-8r9nwtrl (2)ff\\project-bolt-sb1-8r9nwtrl\\project\\src\\housebroker.application\\dtos\\propertydtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D4E5F6-A7B8-4C7D-AE9F-BFAE9C8D7E6F}|src\\HouseBroker.Application\\HouseBroker.Application.csproj|solutionrelative:src\\housebroker.application\\dtos\\propertydtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D4E5F6-A7B8-4C7D-AE9F-BFAE9C8D7E6F}|src\\HouseBroker.Application\\HouseBroker.Application.csproj|c:\\users\\dell\\downloads\\project-bolt-sb1-8r9nwtrl (2)ff\\project-bolt-sb1-8r9nwtrl\\project\\src\\housebroker.application\\dtos\\userdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D4E5F6-A7B8-4C7D-AE9F-BFAE9C8D7E6F}|src\\HouseBroker.Application\\HouseBroker.Application.csproj|solutionrelative:src\\housebroker.application\\dtos\\userdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-4B6C-9D8E-AF9E8B7C6D5E}|src\\HouseBroker.Domain\\HouseBroker.Domain.csproj|c:\\users\\dell\\downloads\\project-bolt-sb1-8r9nwtrl (2)ff\\project-bolt-sb1-8r9nwtrl\\project\\src\\housebroker.domain\\enums\\propertytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-4B6C-9D8E-AF9E8B7C6D5E}|src\\HouseBroker.Domain\\HouseBroker.Domain.csproj|solutionrelative:src\\housebroker.domain\\enums\\propertytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-4B6C-9D8E-AF9E8B7C6D5E}|src\\HouseBroker.Domain\\HouseBroker.Domain.csproj|c:\\users\\dell\\downloads\\project-bolt-sb1-8r9nwtrl (2)ff\\project-bolt-sb1-8r9nwtrl\\project\\src\\housebroker.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-4B6C-9D8E-AF9E8B7C6D5E}|src\\HouseBroker.Domain\\HouseBroker.Domain.csproj|solutionrelative:src\\housebroker.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-4B6C-9D8E-AF9E8B7C6D5E}|src\\HouseBroker.Domain\\HouseBroker.Domain.csproj|c:\\users\\dell\\downloads\\project-bolt-sb1-8r9nwtrl (2)ff\\project-bolt-sb1-8r9nwtrl\\project\\src\\housebroker.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-4B6C-9D8E-AF9E8B7C6D5E}|src\\HouseBroker.Domain\\HouseBroker.Domain.csproj|solutionrelative:src\\housebroker.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-4B6C-9D8E-AF9E8B7C6D5E}|src\\HouseBroker.Domain\\HouseBroker.Domain.csproj|c:\\users\\dell\\downloads\\project-bolt-sb1-8r9nwtrl (2)ff\\project-bolt-sb1-8r9nwtrl\\project\\src\\housebroker.domain\\entities\\propertyimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-4B6C-9D8E-AF9E8B7C6D5E}|src\\HouseBroker.Domain\\HouseBroker.Domain.csproj|solutionrelative:src\\housebroker.domain\\entities\\propertyimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-4B6C-9D8E-AF9E8B7C6D5E}|src\\HouseBroker.Domain\\HouseBroker.Domain.csproj|c:\\users\\dell\\downloads\\project-bolt-sb1-8r9nwtrl (2)ff\\project-bolt-sb1-8r9nwtrl\\project\\src\\housebroker.domain\\entities\\propertyfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-4B6C-9D8E-AF9E8B7C6D5E}|src\\HouseBroker.Domain\\HouseBroker.Domain.csproj|solutionrelative:src\\housebroker.domain\\entities\\propertyfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-4B6C-9D8E-AF9E8B7C6D5E}|src\\HouseBroker.Domain\\HouseBroker.Domain.csproj|c:\\users\\dell\\downloads\\project-bolt-sb1-8r9nwtrl (2)ff\\project-bolt-sb1-8r9nwtrl\\project\\src\\housebroker.domain\\entities\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-4B6C-9D8E-AF9E8B7C6D5E}|src\\HouseBroker.Domain\\HouseBroker.Domain.csproj|solutionrelative:src\\housebroker.domain\\entities\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E5F6A7-B8C9-4D8E-BFAF-CFBFAD9E8F7A}|src\\HouseBroker.Infrastructure\\HouseBroker.Infrastructure.csproj|c:\\users\\dell\\downloads\\project-bolt-sb1-8r9nwtrl (2)ff\\project-bolt-sb1-8r9nwtrl\\project\\src\\housebroker.infrastructure\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E5F6A7-B8C9-4D8E-BFAF-CFBFAD9E8F7A}|src\\HouseBroker.Infrastructure\\HouseBroker.Infrastructure.csproj|solutionrelative:src\\housebroker.infrastructure\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E5F6A7-B8C9-4D8E-BFAF-CFBFAD9E8F7A}|src\\HouseBroker.Infrastructure\\HouseBroker.Infrastructure.csproj|c:\\users\\dell\\downloads\\project-bolt-sb1-8r9nwtrl (2)ff\\project-bolt-sb1-8r9nwtrl\\project\\src\\housebroker.infrastructure\\repositories\\propertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E5F6A7-B8C9-4D8E-BFAF-CFBFAD9E8F7A}|src\\HouseBroker.Infrastructure\\HouseBroker.Infrastructure.csproj|solutionrelative:src\\housebroker.infrastructure\\repositories\\propertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-4A5B-8C7D-9E8F7A6B5C4D}|src\\HouseBroker.API\\HouseBroker.API.csproj|c:\\users\\dell\\downloads\\project-bolt-sb1-8r9nwtrl (2)ff\\project-bolt-sb1-8r9nwtrl\\project\\src\\housebroker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-4A5B-8C7D-9E8F7A6B5C4D}|src\\HouseBroker.API\\HouseBroker.API.csproj|solutionrelative:src\\housebroker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-4A5B-8C7D-9E8F7A6B5C4D}|src\\HouseBroker.API\\HouseBroker.API.csproj|c:\\users\\dell\\downloads\\project-bolt-sb1-8r9nwtrl (2)ff\\project-bolt-sb1-8r9nwtrl\\project\\src\\housebroker.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-4A5B-8C7D-9E8F7A6B5C4D}|src\\HouseBroker.API\\HouseBroker.API.csproj|solutionrelative:src\\housebroker.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D4E5F6-A7B8-4C7D-AE9F-BFAE9C8D7E6F}|src\\HouseBroker.Application\\HouseBroker.Application.csproj|c:\\users\\dell\\downloads\\project-bolt-sb1-8r9nwtrl (2)ff\\project-bolt-sb1-8r9nwtrl\\project\\src\\housebroker.application\\validators\\propertyvalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D4E5F6-A7B8-4C7D-AE9F-BFAE9C8D7E6F}|src\\HouseBroker.Application\\HouseBroker.Application.csproj|solutionrelative:src\\housebroker.application\\validators\\propertyvalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D4E5F6-A7B8-4C7D-AE9F-BFAE9C8D7E6F}|src\\HouseBroker.Application\\HouseBroker.Application.csproj|c:\\users\\dell\\downloads\\project-bolt-sb1-8r9nwtrl (2)ff\\project-bolt-sb1-8r9nwtrl\\project\\src\\housebroker.application\\services\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D4E5F6-A7B8-4C7D-AE9F-BFAE9C8D7E6F}|src\\HouseBroker.Application\\HouseBroker.Application.csproj|solutionrelative:src\\housebroker.application\\services\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-4A5B-8C7D-9E8F7A6B5C4D}|src\\HouseBroker.API\\HouseBroker.API.csproj|c:\\users\\dell\\downloads\\project-bolt-sb1-8r9nwtrl (2)ff\\project-bolt-sb1-8r9nwtrl\\project\\src\\housebroker.api\\controllers\\propertiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-4A5B-8C7D-9E8F7A6B5C4D}|src\\HouseBroker.API\\HouseBroker.API.csproj|solutionrelative:src\\housebroker.api\\controllers\\propertiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-4A5B-8C7D-9E8F7A6B5C4D}|src\\HouseBroker.API\\HouseBroker.API.csproj|c:\\users\\dell\\downloads\\project-bolt-sb1-8r9nwtrl (2)ff\\project-bolt-sb1-8r9nwtrl\\project\\src\\housebroker.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-4A5B-8C7D-9E8F7A6B5C4D}|src\\HouseBroker.API\\HouseBroker.API.csproj|solutionrelative:src\\housebroker.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D4E5F6-A7B8-4C7D-AE9F-BFAE9C8D7E6F}|src\\HouseBroker.Application\\HouseBroker.Application.csproj|c:\\users\\dell\\downloads\\project-bolt-sb1-8r9nwtrl (2)ff\\project-bolt-sb1-8r9nwtrl\\project\\src\\housebroker.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D4E5F6-A7B8-4C7D-AE9F-BFAE9C8D7E6F}|src\\HouseBroker.Application\\HouseBroker.Application.csproj|solutionrelative:src\\housebroker.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D4E5F6-A7B8-4C7D-AE9F-BFAE9C8D7E6F}|src\\HouseBroker.Application\\HouseBroker.Application.csproj|c:\\users\\dell\\downloads\\project-bolt-sb1-8r9nwtrl (2)ff\\project-bolt-sb1-8r9nwtrl\\project\\src\\housebroker.application\\validators\\registeruservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D4E5F6-A7B8-4C7D-AE9F-BFAE9C8D7E6F}|src\\HouseBroker.Application\\HouseBroker.Application.csproj|solutionrelative:src\\housebroker.application\\validators\\registeruservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D4E5F6-A7B8-4C7D-AE9F-BFAE9C8D7E6F}|src\\HouseBroker.Application\\HouseBroker.Application.csproj|c:\\users\\dell\\downloads\\project-bolt-sb1-8r9nwtrl (2)ff\\project-bolt-sb1-8r9nwtrl\\project\\src\\housebroker.application\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D4E5F6-A7B8-4C7D-AE9F-BFAE9C8D7E6F}|src\\HouseBroker.Application\\HouseBroker.Application.csproj|solutionrelative:src\\housebroker.application\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D4E5F6-A7B8-4C7D-AE9F-BFAE9C8D7E6F}|src\\HouseBroker.Application\\HouseBroker.Application.csproj|c:\\users\\dell\\downloads\\project-bolt-sb1-8r9nwtrl (2)ff\\project-bolt-sb1-8r9nwtrl\\project\\src\\housebroker.application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D4E5F6-A7B8-4C7D-AE9F-BFAE9C8D7E6F}|src\\HouseBroker.Application\\HouseBroker.Application.csproj|solutionrelative:src\\housebroker.application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-4A5B-8C7D-9E8F7A6B5C4D}|src\\HouseBroker.API\\HouseBroker.API.csproj|c:\\users\\dell\\downloads\\project-bolt-sb1-8r9nwtrl (2)ff\\project-bolt-sb1-8r9nwtrl\\project\\src\\housebroker.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-4A5B-8C7D-9E8F7A6B5C4D}|src\\HouseBroker.API\\HouseBroker.API.csproj|solutionrelative:src\\housebroker.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Infrastructure\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "src\\HouseBroker.Infrastructure\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Infrastructure\\UnitOfWork.cs",
+              "RelativeToolTip": "src\\HouseBroker.Infrastructure\\UnitOfWork.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowB8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T08:00:05.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Property.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Domain\\Entities\\Property.cs",
+              "RelativeDocumentMoniker": "src\\HouseBroker.Domain\\Entities\\Property.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Domain\\Entities\\Property.cs",
+              "RelativeToolTip": "src\\HouseBroker.Domain\\Entities\\Property.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:58:49.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PropertyFeature.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Domain\\Entities\\PropertyFeature.cs",
+              "RelativeDocumentMoniker": "src\\HouseBroker.Domain\\Entities\\PropertyFeature.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Domain\\Entities\\PropertyFeature.cs",
+              "RelativeToolTip": "src\\HouseBroker.Domain\\Entities\\PropertyFeature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:58:53.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Domain\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "src\\HouseBroker.Domain\\Enums\\UserRole.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Domain\\Enums\\UserRole.cs",
+              "RelativeToolTip": "src\\HouseBroker.Domain\\Enums\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:59:02.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PropertyType.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Domain\\Enums\\PropertyType.cs",
+              "RelativeDocumentMoniker": "src\\HouseBroker.Domain\\Enums\\PropertyType.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Domain\\Enums\\PropertyType.cs",
+              "RelativeToolTip": "src\\HouseBroker.Domain\\Enums\\PropertyType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:58:59.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPropertyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Domain\\Interfaces\\IPropertyRepository.cs",
+              "RelativeDocumentMoniker": "src\\HouseBroker.Domain\\Interfaces\\IPropertyRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Domain\\Interfaces\\IPropertyRepository.cs",
+              "RelativeToolTip": "src\\HouseBroker.Domain\\Interfaces\\IPropertyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:59:10.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Domain\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "src\\HouseBroker.Domain\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Domain\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "src\\HouseBroker.Domain\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:59:15.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PropertyDTOs.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\DTOs\\PropertyDTOs.cs",
+              "RelativeDocumentMoniker": "src\\HouseBroker.Application\\DTOs\\PropertyDTOs.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\DTOs\\PropertyDTOs.cs",
+              "RelativeToolTip": "src\\HouseBroker.Application\\DTOs\\PropertyDTOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:46:44.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDTOs.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\DTOs\\UserDTOs.cs",
+              "RelativeDocumentMoniker": "src\\HouseBroker.Application\\DTOs\\UserDTOs.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\DTOs\\UserDTOs.cs",
+              "RelativeToolTip": "src\\HouseBroker.Application\\DTOs\\UserDTOs.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:46:57.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HouseBrokerDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Infrastructure\\Data\\HouseBrokerDbContext.cs",
+              "RelativeDocumentMoniker": "src\\HouseBroker.Infrastructure\\Data\\HouseBrokerDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Infrastructure\\Data\\HouseBrokerDbContext.cs",
+              "RelativeToolTip": "src\\HouseBroker.Infrastructure\\Data\\HouseBrokerDbContext.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswAcAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:59:24.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PropertyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Infrastructure\\Repositories\\PropertyRepository.cs",
+              "RelativeDocumentMoniker": "src\\HouseBroker.Infrastructure\\Repositories\\PropertyRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Infrastructure\\Repositories\\PropertyRepository.cs",
+              "RelativeToolTip": "src\\HouseBroker.Infrastructure\\Repositories\\PropertyRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:59:51.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "src\\HouseBroker.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "src\\HouseBroker.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T09:19:53.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\HouseBroker.API\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.API\\Program.cs",
+              "RelativeToolTip": "src\\HouseBroker.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:54:05.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PropertyValidators.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\Validators\\PropertyValidators.cs",
+              "RelativeDocumentMoniker": "src\\HouseBroker.Application\\Validators\\PropertyValidators.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\Validators\\PropertyValidators.cs",
+              "RelativeToolTip": "src\\HouseBroker.Application\\Validators\\PropertyValidators.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAxwIoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T08:11:37.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PropertyImage.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Domain\\Entities\\PropertyImage.cs",
+              "RelativeDocumentMoniker": "src\\HouseBroker.Domain\\Entities\\PropertyImage.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Domain\\Entities\\PropertyImage.cs",
+              "RelativeToolTip": "src\\HouseBroker.Domain\\Entities\\PropertyImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:58:55.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "src\\HouseBroker.Application\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "src\\HouseBroker.Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwEkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:56:38.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\HouseBroker.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.API\\appsettings.json",
+              "RelativeToolTip": "src\\HouseBroker.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-22T07:47:59.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PropertiesController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.API\\Controllers\\PropertiesController.cs",
+              "RelativeDocumentMoniker": "src\\HouseBroker.API\\Controllers\\PropertiesController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.API\\Controllers\\PropertiesController.cs",
+              "RelativeToolTip": "src\\HouseBroker.API\\Controllers\\PropertiesController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wBQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:46:35.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\HouseBroker.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "src\\HouseBroker.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAEwGkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:46:32.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PropertyService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\Services\\PropertyService.cs",
+              "RelativeDocumentMoniker": "src\\HouseBroker.Application\\Services\\PropertyService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\Services\\PropertyService.cs",
+              "RelativeToolTip": "src\\HouseBroker.Application\\Services\\PropertyService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T08:00:45.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegisterUserValidator.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\Validators\\RegisterUserValidator.cs",
+              "RelativeDocumentMoniker": "src\\HouseBroker.Application\\Validators\\RegisterUserValidator.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\Validators\\RegisterUserValidator.cs",
+              "RelativeToolTip": "src\\HouseBroker.Application\\Validators\\RegisterUserValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T08:11:30.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "src\\HouseBroker.Application\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "src\\HouseBroker.Application\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAA2wBAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:47:03.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "src\\HouseBroker.Application\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.Application\\Services\\IAuthService.cs",
+              "RelativeToolTip": "src\\HouseBroker.Application\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T08:30:40.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\HouseBroker.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\project-bolt-sb1-8r9nwtrl (2)FF\\project-bolt-sb1-8r9nwtrl\\project\\src\\HouseBroker.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\HouseBroker.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-22T07:47:55.147Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

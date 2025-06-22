@@ -1,0 +1,266 @@
+[
+  {
+    "ContainingType": "HouseBroker.API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "HouseBroker.Application.DTOs.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HouseBroker.Application.DTOs.AuthResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HouseBroker.API.Controllers.AuthController",
+    "Method": "GetCurrentUser",
+    "RelativePath": "api/Auth/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "HouseBroker.Application.DTOs.UserDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HouseBroker.API.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDto",
+        "Type": "HouseBroker.Application.DTOs.RegisterUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HouseBroker.Application.DTOs.AuthResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HouseBroker.API.Controllers.PropertiesController",
+    "Method": "GetAllProperties",
+    "RelativePath": "api/Properties",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HouseBroker.Application.DTOs.PagedResultDto\u00601[[HouseBroker.Application.DTOs.PropertyListDto, HouseBroker.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HouseBroker.API.Controllers.PropertiesController",
+    "Method": "CreateProperty",
+    "RelativePath": "api/Properties",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createDto",
+        "Type": "HouseBroker.Application.DTOs.CreatePropertyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HouseBroker.Application.DTOs.PropertyDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HouseBroker.API.Controllers.PropertiesController",
+    "Method": "GetProperty",
+    "RelativePath": "api/Properties/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HouseBroker.Application.DTOs.PropertyDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HouseBroker.API.Controllers.PropertiesController",
+    "Method": "UpdateProperty",
+    "RelativePath": "api/Properties/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateDto",
+        "Type": "HouseBroker.Application.DTOs.UpdatePropertyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HouseBroker.Application.DTOs.PropertyDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HouseBroker.API.Controllers.PropertiesController",
+    "Method": "DeleteProperty",
+    "RelativePath": "api/Properties/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HouseBroker.API.Controllers.PropertiesController",
+    "Method": "GetPropertiesByBroker",
+    "RelativePath": "api/Properties/broker/{brokerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "brokerId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HouseBroker.Application.DTOs.PagedResultDto\u00601[[HouseBroker.Application.DTOs.PropertyListDto, HouseBroker.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HouseBroker.API.Controllers.PropertiesController",
+    "Method": "SearchProperties",
+    "RelativePath": "api/Properties/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchDto",
+        "Type": "HouseBroker.Application.DTOs.PropertySearchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HouseBroker.Application.DTOs.PagedResultDto\u00601[[HouseBroker.Application.DTOs.PropertyListDto, HouseBroker.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

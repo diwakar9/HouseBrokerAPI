@@ -1,0 +1,30 @@
+C:\Users\MSI\Downloads\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\bin\Debug\net8.0\HouseBroker.Application.deps.json
+C:\Users\MSI\Downloads\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\bin\Debug\net8.0\HouseBroker.Application.dll
+C:\Users\MSI\Downloads\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\bin\Debug\net8.0\HouseBroker.Application.pdb
+C:\Users\MSI\Downloads\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\bin\Debug\net8.0\HouseBroker.Domain.dll
+C:\Users\MSI\Downloads\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\bin\Debug\net8.0\HouseBroker.Domain.pdb
+C:\Users\MSI\Downloads\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\obj\Debug\net8.0\HouseBroker.Application.csproj.AssemblyReference.cache
+C:\Users\MSI\Downloads\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\obj\Debug\net8.0\HouseBroker.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\Downloads\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\obj\Debug\net8.0\HouseBroker.Application.AssemblyInfoInputs.cache
+C:\Users\MSI\Downloads\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\obj\Debug\net8.0\HouseBroker.Application.AssemblyInfo.cs
+C:\Users\MSI\Downloads\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\obj\Debug\net8.0\HouseBroker.Application.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Downloads\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\obj\Debug\net8.0\HouseBro.75D01CA2.Up2Date
+C:\Users\MSI\Downloads\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\obj\Debug\net8.0\HouseBroker.Application.dll
+C:\Users\MSI\Downloads\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\obj\Debug\net8.0\refint\HouseBroker.Application.dll
+C:\Users\MSI\Downloads\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\obj\Debug\net8.0\HouseBroker.Application.pdb
+C:\Users\MSI\Downloads\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\obj\Debug\net8.0\ref\HouseBroker.Application.dll
+C:\Users\DELL\Downloads\project-bolt-sb1-8r9nwtrl (2)FF\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\bin\Debug\net8.0\HouseBroker.Application.deps.json
+C:\Users\DELL\Downloads\project-bolt-sb1-8r9nwtrl (2)FF\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\bin\Debug\net8.0\HouseBroker.Application.dll
+C:\Users\DELL\Downloads\project-bolt-sb1-8r9nwtrl (2)FF\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\bin\Debug\net8.0\HouseBroker.Application.pdb
+C:\Users\DELL\Downloads\project-bolt-sb1-8r9nwtrl (2)FF\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\bin\Debug\net8.0\HouseBroker.Domain.dll
+C:\Users\DELL\Downloads\project-bolt-sb1-8r9nwtrl (2)FF\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\bin\Debug\net8.0\HouseBroker.Domain.pdb
+C:\Users\DELL\Downloads\project-bolt-sb1-8r9nwtrl (2)FF\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\obj\Debug\net8.0\HouseBroker.Application.csproj.AssemblyReference.cache
+C:\Users\DELL\Downloads\project-bolt-sb1-8r9nwtrl (2)FF\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\obj\Debug\net8.0\HouseBroker.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Downloads\project-bolt-sb1-8r9nwtrl (2)FF\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\obj\Debug\net8.0\HouseBroker.Application.AssemblyInfoInputs.cache
+C:\Users\DELL\Downloads\project-bolt-sb1-8r9nwtrl (2)FF\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\obj\Debug\net8.0\HouseBroker.Application.AssemblyInfo.cs
+C:\Users\DELL\Downloads\project-bolt-sb1-8r9nwtrl (2)FF\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\obj\Debug\net8.0\HouseBroker.Application.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\project-bolt-sb1-8r9nwtrl (2)FF\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\obj\Debug\net8.0\HouseBro.75D01CA2.Up2Date
+C:\Users\DELL\Downloads\project-bolt-sb1-8r9nwtrl (2)FF\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\obj\Debug\net8.0\HouseBroker.Application.dll
+C:\Users\DELL\Downloads\project-bolt-sb1-8r9nwtrl (2)FF\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\obj\Debug\net8.0\refint\HouseBroker.Application.dll
+C:\Users\DELL\Downloads\project-bolt-sb1-8r9nwtrl (2)FF\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\obj\Debug\net8.0\HouseBroker.Application.pdb
+C:\Users\DELL\Downloads\project-bolt-sb1-8r9nwtrl (2)FF\project-bolt-sb1-8r9nwtrl\project\src\HouseBroker.Application\obj\Debug\net8.0\ref\HouseBroker.Application.dll
